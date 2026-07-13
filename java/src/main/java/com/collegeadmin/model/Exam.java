@@ -5,10 +5,9 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
-public class Student {
+public class Exam {
     private final IntegerProperty id = new SimpleIntegerProperty();
     private final StringProperty name = new SimpleStringProperty();
-    private final StringProperty roll = new SimpleStringProperty();
 
     public int getId() { return id.get(); }
     public void setId(int id) { this.id.set(id); }
@@ -17,8 +16,4 @@ public class Student {
     public String getName() { return name.get(); }
     public void setName(String name) { this.name.set(name); }
     public StringProperty nameProperty() { return name; }
-
-    public String getRoll() { return roll.get(); }
-    public void setRoll(String roll) { this.roll.set(roll); }
-    public StringProperty rollProperty() { return roll; }
 }

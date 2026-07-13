@@ -1,0 +1,28 @@
+/* Simple CSS theme for JavaFX */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", "Arial";
+    -fx-background-color: linear-gradient(#f7f8fa, #e9eef6);
+}
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.nav {
+    -fx-background-color: linear-gradient(#ffffff, #f1f5fb);
+    -fx-padding: 12px;
+    -fx-border-color: #e0e6ef;
+    -fx-border-width: 0 1 0 0;
+}
+.button {
+    -fx-background-radius: 4px;
+}
+.card {
+    -fx-background-color: white;
+    -fx-padding: 12px;
+    -fx-border-radius: 6px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 6,0,0,2);
+}
+.heading {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+}
